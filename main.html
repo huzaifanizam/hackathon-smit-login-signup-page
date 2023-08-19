@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href='https://unpkg.com/boxicons@2.1.2/css/boxicons.min.css' rel='stylesheet'>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <title>MINI Hackathon</title>
+    <link rel="stylesheet" href="stylesheet.css">
+</head>
+<body>
+
+
+      <section class="postForm">
+      <div  id="container">
+
+        <h1 id="current-time"></h1>
+        <div class="quotes">
+          <p>today quotes</p>
+          <h3>Never Give up</h3>
+         
+          <div class="greating" style="
+
+          background: linear-gradient(-240deg, #8468ff
+          
+          70%,#785bf7 70%);
+          
+          padding: 1em 1.3em;
+          
+          border-radius: 0.4em;
+          
+          box-shadow: 0 1.3 em 1.8em rgba(94,72,181,0.25)"> </div>
+
+        </div>
+        <br>
+
+        <h1> Write yor Blog </h1>
+      </div>
+      <div class="form">
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="post-pubname" placeholder="Name" required>
+        <label for="floatingInput">Post Publisher Name</label>
+      </div>
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control floatingInput" id="post-pubimg" placeholder="www.google.com" required>
+        <label for="floatingInput">Post Publisher Image Link</label>
+      </div>
+      <!-- <div class="form-floating mb-3">
+        <input type="link" class="form-control" id="post-img" placeholder="www.google.com" required>
+        <label for="floatingInput">Post Image Link</label>
+      </div> -->
+    
+      <div class="form-floating mb-3">
+        <input type="text" class="form-control" id="post-title" placeholder="Lorem" required>
+        <label for="floatingInput">Post Title</label>
+      </div>
+      <div class="form-floating mb-3">
+        <textarea class="form-control" name=""  id="post-value"  placeholder="Lorem ipsum doller" required></textarea>
+        <label for="floatingInput">Post Description</label>
+      </div>
+      <button class="btn-primary postBtn" onclick="submitPost()"> Publish Blog</button>
+
+    </div>
+</section>
+<h1>All Blogs</h1>
+      <div id="main"></div>
+      
+</body>
+
+    <script src="./lastapp.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+</html>

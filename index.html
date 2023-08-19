@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sign Up Form</title>
+    <!-- <link rel="stylesheet" href="style.css"> -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+   
+</head>
+<body>
+    <div class="container">
+        <div class="row">
+            
+            <div class="col-sm-12 md-8 lg-4">
+                    <div style="background-color: #5cb85c;"><h1> Blogging App</h1></div>
+                    <br>
+                    <h1>Sign Up Form</h1>
+                    <div class="form-group"> <!--   just for showing First Name -->
+                        <label for="email">First Name</label>
+                        <input type="text" min="3" max="20" class="form-control" placeholder="First Name" required>
+                    </div>
+                   <div class="form-group">  <!--   just for showing Second Name -->
+                        <label for="email">Second Name</label>
+                        <input type="text" min="1" max="20" class="form-control" placeholder="Second Name" required>
+                    </div>
+                    
+                    <div class="form-group">
+                        <label for="email">Email A
+                            ddress</label>
+                        <input type="text" name="email" id="email" class="form-control" placeholder="Enter your email">
+                    </div>
+
+                    <div class="form-group">
+                        <label for="password">Password</label>
+                        <input type="password"  name="password" id="password" class="form-control"
+                            placeholder="Enter your password">
+                    </div>
+                    <span>Already Have an Account <a href="./login.html">Login</a></span><br><br>
+                    <button type="button" id="register" name="register" class="btn btn-success">Sign up / Register Now</button>
+                </div>
+        
+        
+        
+
+        <script src="./app.js" type="module">
+
+        </script>
+</body>
+</html>
